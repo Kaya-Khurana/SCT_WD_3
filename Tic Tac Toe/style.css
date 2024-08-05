@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 60px;
+    color: yellow
+}
+
+body {
+    background-image: url("/654ca849578e1e693969edb8_punchev-group-studio-game-art-main.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+
+}
+
+.container {
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 10px;
+
+
+}
+
+.game {
+
+    height: 350px;
+    width: 450px;
+    display: flex;
+    margin-left: 90px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.0em;
+
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 30px;
+    color: green;
+    font-weight: bolder;
+}
+
+.button {
+    margin-left: 650px;
+    margin-top: 40px;
+
+
+}
+
+button {
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+    font-size: 28px;
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+}
+
+#new-btn {
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+    font-size: 29px;
+    background-color: white;
+    color: rgb(218, 20, 93);
+    border-radius: 10px;
+}
+
+#msg {
+    font-size: 40px;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-left: 660px;
+}
+
+.hide {
+    display: none;
+}
